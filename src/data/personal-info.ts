@@ -1,4 +1,5 @@
 export interface PersonalInfo {
+  greeting: string;
   name: string;
   title: string;
   description: string;
@@ -18,6 +19,7 @@ export interface PersonalInfo {
 }
 
 const personalInfo: PersonalInfo = {
+  greeting:"Salut, c'est",
   name: "Khalil Mtaallah",
   title: "Software Engineering Student",
   description: "Étudiant motivé en ingénierie informatique. Passionné par l'univers du web et mobile. Ma capacité d'adaptation me permet d'être proactif et fiable dans la réalisation de mes missions, tout en restant ouvert à l'apprentissage continu et curieux des nouvelles avancées technologiques.",

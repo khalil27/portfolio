@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun } from 'lucide-react';
 import { Link } from 'react-scroll';
+import { useTranslation } from 'react-i18next';
 
 interface NavbarProps {
   darkMode: boolean;

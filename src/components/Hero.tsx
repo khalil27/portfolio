@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-10 text-center">
         <div className="relative inline-block mb-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 animate-fade-in relative z-10">
-            {personalInfo.name}
+          {personalInfo.greeting} {personalInfo.name}
           </h1>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-400 to-secondary-400 opacity-20 blur-lg animate-pulse-slow"></div>
         </div>
